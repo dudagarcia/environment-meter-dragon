@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../projetos/environment-meter-chicken"
+		},
+		{
+			"name": "environment-meter-dragon",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
