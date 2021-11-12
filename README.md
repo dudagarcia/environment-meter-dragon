@@ -1,1 +1,1 @@
-# environment-meter-dragon
+#### Medidor climático realizado durante a disciplina de Computação Física e Aplicações da graduação de Sistemas de Informação sob orientação do professor Fábio Nakano. Realizado com a colaboração de Laura Steinert de Freitas e Lais Garcia.
