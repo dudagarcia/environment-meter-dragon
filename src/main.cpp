@@ -1,21 +1,24 @@
+#include <Arduino.h>
 #include <WiFi.h>
 #include <FirebaseESP32.h>
+#include <Firebase_ESP_Client.h>
  
 #include "addons/TokenHelper.h"
 #include "addons/RTDBHelper.h"
 
-#define FIREBASE_HOST "https://environment-meter-dragon-8bfae-default-rtdb.firebaseio.com/"
-#define FIREBASE_AUTH "096v54m4MCdog4gtln6jwoq912cS5Ik4CrnmHhsW"
+#define DATABASE_URL "https://environment-meter-dragon-8bfae-default-rtdb.firebaseio.com/"
 #define WIFI_SSID "APTO101"
 #define WIFI_PASSWORD "chmL231618"
- 
+#define API_KEY "AIzaSyDaFthn4MtUa-Z86epaoygFa7JtfW084FE"
  
 //Define FirebaseESP32 data object
 FirebaseData firebaseData;
 FirebaseJson json;
+FirebaseAuth auth;
+FirebaseConfig config;
 
-String path = "/";
-bool iterar = true;
+bool signedUp = false;
+unsigned long sendDataPrevMillis = 0;
  
 void setup()
 {
@@ -34,13 +37,21 @@ void setup()
   Serial.print("Connected with IP: ");
   Serial.println(WiFi.localIP());
   Serial.println();
+
+  config.api_key = API_KEY;
+  config.database_url = DATABASE_URL;
  
-  Firebase.begin(FIREBASE_HOST, FIREBASE_AUTH);
+  if (Firebase.signUp(&config, &auth, "", "")){
+    Serial.println("ok");
+    signupOK = true;
+  }
+  else{
+    Serial.printf("%s\n", config.signer.signupError.message.c_str());
+  }
+
+  config.token_status_callback = tokenStatusCallback;
+  Firebase.begin(&config, &auth);
   Firebase.reconnectWiFi(true);
- 
-  Firebase.setReadTimeout(firebaseData, 1000 * 60);
-  
-  Firebase.setwriteSizeLimit(firebaseData, "tiny");
  
   Serial.println("------------------------------------");
   Serial.println("Connected...");
@@ -49,13 +60,30 @@ void setup()
  
 void loop()
 {
-  while(iterar){
-    Firebase.setInt(firebaseData, path + "/sensor1", 512);
-    Firebase.setBool(firebaseData, path + "/online", true);
-    Serial.println(firebaseData.intData());
-    delay(250);
-    iterar = false;
-    Firebase.end(firebaseData);
+
+  if (Firebase.ready() && signupOK && (millis() - sendDataPrevMillis > 15000 || sendDataPrevMillis == 0)){
+    sendDataPrevMillis = millis();
+    
+    if (Firebase.RTDB.setInt(&firebaseData, "/sensor1", 512)){
+      Serial.println("PASSED");
+      Serial.println("PATH: " + firebaseData.dataPath());
+      Serial.println("TYPE: " + firebaseData.dataType());
+    }
+    else {
+      Serial.println("FAILED");
+      Serial.println("REASON: " + firebaseData.errorReason());
+    }
+    
+    
+    if (Firebase.RTDB.setBool(&firebaseData, "/online", true)){
+      Serial.println("PASSED");
+      Serial.println("PATH: " + firebaseData.dataPath());
+      Serial.println("TYPE: " + firebaseData.dataType());
+    }
+    else {
+      Serial.println("FAILED");
+      Serial.println("REASON: " + firebaseData.errorReason());
+    }
   }
  
 }
