@@ -43,7 +43,7 @@ void setup()
  
   if (Firebase.signUp(&config, &auth, "", "")){
     Serial.println("ok");
-    signupOK = true;
+    signedUp = true;
   }
   else{
     Serial.printf("%s\n", config.signer.signupError.message.c_str());
@@ -61,7 +61,7 @@ void setup()
 void loop()
 {
 
-  if (Firebase.ready() && signupOK && (millis() - sendDataPrevMillis > 15000 || sendDataPrevMillis == 0)){
+  if (Firebase.ready() && signedUp && (millis() - sendDataPrevMillis > 15000 || sendDataPrevMillis == 0)){
     sendDataPrevMillis = millis();
     
     if (Firebase.RTDB.setInt(&firebaseData, "/sensor1", 512)){
