@@ -1,11 +1,17 @@
 #### Environment Meter Dragon
+
+### Sobre
    1.1 Medidor climático realizado durante a disciplina de Computação Física e Aplicações da graduação de Sistemas de Informação sob orientação do professor Fábio Nakano. Realizado com a colaboração de Laura Steinert de Freitas e Lais Garcia.
+   
       1.1. Usando ESP32 e medidores climáticos, juntamente com o Firebase.
-   1.2 Infraestrutura
+    
+  1.2 Infraestrutura
+  
        1.2.1 Visão geral
+       
        1.2.2 Dispositivo - Dragão Meteorológico
        
-       -----
+       ----- TODO
             1.2.2.1 Lista de peças
             1.2.2.2 Circuito (lista de conexões)
             1.2.2.3 Montagem
