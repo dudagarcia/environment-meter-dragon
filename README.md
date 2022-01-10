@@ -8,11 +8,15 @@
       Usando ESP32 e medidores climáticos, juntamente com o Firebase.
  
  ### Aparência
+ 
+ ##
+ 
  ![Dragão de plástico branco](https://cdn.discordapp.com/attachments/897837705172516884/910499807095820308/IMG_20211117_085139398.jpg)
   
   ### 1.2 Infraestrutura
   
   ## 
+  
   #### 1.2.1 Visão geral
   
   ##### 1.2.2 Dispositivo - Dragão Meteorológico
