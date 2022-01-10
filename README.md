@@ -28,10 +28,17 @@
   &emsp;  &emsp;  &emsp;Para o dragão: Filamento PLA Transparente, Impressora 3D Ender-3 Pro - Creality.
                
   &emsp;  &emsp; 1.2.2.2 Circuito (lista de conexões)
-           &emsp;  &emsp; &emsp;1.2.2.3 Montagem
-            ![Circuito 1](images/WhatsApp Image 2021-12-10 at 14.42.50.jpeg)
-            ![Circuito 2](images/WhatsApp Image 2022-01-07 at 00.06.24 (1).jpeg)
-            ![Circuito 3](images/WhatsApp Image 2022-01-07 at 00.06.24.jpeg)
+  
+  &emsp;  &emsp; &emsp;1.2.2.3 Montagem
+           
+  <img src = "images/WhatsApp Image 2021-12-10 at 14.42.50.jpeg" width = 1000>
+  &emsp;  &emsp; &emsp;
+   
+  <img src = "images/WhatsApp Image 2022-01-07 at 00.06.24 (1).jpeg">
+  &emsp;  &emsp; &emsp;
+  
+  <img src = "images/WhatsApp Image 2022-01-07 at 00.06.24.jpeg">
+  
             1.2.2.4 Programação do dispositivo
                      Código-fonte
                      Como transferir o programa para o dispositivo
