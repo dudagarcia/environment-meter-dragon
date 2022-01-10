@@ -11,14 +11,14 @@
  ![Dragão de plástico branco](https://cdn.discordapp.com/attachments/897837705172516884/910499807095820308/IMG_20211117_085139398.jpg)
 
     
-  #### 1.2 Infraestrutura
+  ### 1.2 Infraestrutura
   
-    1.2.1 Visão geral
+  ## 1.2.1 Visão geral
    
-       1.2.2 Dispositivo - Dragão Meteorológico
-            1.2.2.1 Lista de peças
-               Sensor BME280, ESP32, Jumpers. 
-               Para o dragão: Filamento PLA Transparente, Impressora 3D Ender-3 Pro - Creality.
+  1.2.2 Dispositivo - Dragão Meteorológico
+         1.2.2.1 Lista de peças
+              Sensor BME280, ESP32, Jumpers. 
+              Para o dragão: Filamento PLA Transparente, Impressora 3D Ender-3 Pro - Creality.
                
 
       ----- TODO
