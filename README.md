@@ -15,9 +15,9 @@
   
   ## 1.2.1 Visão geral
    
-  (&emsp;) 1.2.2 Dispositivo - Dragão Meteorológico
+  &emsp;1.2.2 Dispositivo - Dragão Meteorológico
   
-  (&emsp;) 1.2.2.1 Lista de peças
+  &emsp;  &emsp;  &emsp; 1.2.2.1 Lista de peças
          
               Sensor BME280, ESP32, Jumpers. 
               Para o dragão: Filamento PLA Transparente, Impressora 3D Ender-3 Pro - Creality.
