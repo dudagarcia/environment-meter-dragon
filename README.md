@@ -19,8 +19,9 @@
   
   &emsp;  &emsp; 1.2.2.1 Lista de peças
          
-  &emsp;  &emsp;  &emsp;Sensor BME280, ESP32, Jumpers. 
-    &emsp;  &emsp;  &emsp;Para o dragão: Filamento PLA Transparente, Impressora 3D Ender-3 Pro - Creality.
+  &emsp;  &emsp;  &emsp;Sensor BME280, ESP32, Jumpers.
+  
+  &emsp;  &emsp;  &emsp;Para o dragão: Filamento PLA Transparente, Impressora 3D Ender-3 Pro - Creality.
                
 
       ----- TODO
