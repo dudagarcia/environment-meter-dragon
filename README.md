@@ -3,19 +3,20 @@
 ### Sobre
    1.1 Medidor climático realizado durante a disciplina de Computação Física e Aplicações da graduação de Sistemas de Informação sob orientação do professor Fábio Nakano. Realizado com a colaboração de Laura Steinert de Freitas e Lais Garcia.
    
-      1.1. Como?
+   1.1. Como?
       
       Usando ESP32 e medidores climáticos, juntamente com o Firebase.
  
  ### Aparência
  ![Dragão de plástico branco](https://cdn.discordapp.com/attachments/897837705172516884/910499807095820308/IMG_20211117_085139398.jpg)
-
-    
+  
   ### 1.2 Infraestrutura
   
+  ## 
+  
   ## 1.2.1 Visão geral
-   
-  &emsp;1.2.2 Dispositivo - Dragão Meteorológico
+  
+  # 1.2.2 Dispositivo - Dragão Meteorológico
   
   &emsp;  &emsp; 1.2.2.1 Lista de peças
          
