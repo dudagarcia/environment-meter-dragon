@@ -30,33 +30,28 @@
   &emsp;  &emsp; 1.2.2.2 Circuito (lista de conexões)
   
   &emsp;  &emsp; &emsp;1.2.2.3 Montagem
-           
-  <img src = "images/WhatsApp Image 2021-12-10 at 14.42.50.jpeg" width = 1000>
-  &emsp;  &emsp; &emsp;
-   
+  
   <img src = "images/WhatsApp Image 2022-01-07 at 00.06.24 (1).jpeg">
   &emsp;  &emsp; &emsp;
   
   <img src = "images/WhatsApp Image 2022-01-07 at 00.06.24.jpeg">
   
-            1.2.2.4 Programação do dispositivo
-                     Código-fonte
-                     Como transferir o programa para o dispositivo
-            1.2.2.5 Teste (só do dispositivo)
-       1.2.3 Construção física
-           1.2.3.1 Visão geral
-           1.2.3.2 Dragão (impressão 3D)
-                  que filamento uso, referências para projetos correlatos e para fornecedores do filamento
-                  que projeto usou (arquivos .stl).
-           1.2.3.3 Construção do suporte para o dragão
-       1.2.4 Infraestrutura de comunicação
-           1.2.4.1 Visão geral
-           1.2.4.2 Firebase (ou a que escolheram, caso tenham trocado)
-                  referências para bibliotecas, APIs, bibliografia.
-       1.2.5 Visualização (aplicativos)
-           1.2.5.1 Visão geral, proposta geral
-           1.2.5.2 Aplicativo
-               1.2.5.2.1 Apresentar compilado, para baixar, instalar e usar
+   &emsp;  &emsp; 1.2.2.4 Programação do dispositivo
+   &emsp;  &emsp;  &emsp; Uso das bibliotecas <Adafruit_NeoPixel.h> para a manipulação dos LEDs e <Adafruit_BME280.h> e <Adafruit_Sensor.h> para a manipulação do BME280.
+   
+   ##### 1.2.3 Construção física
+   &emsp;  &emsp;1.2.3.1 Visão geral
+   &emsp; &emsp;  &emsp; 1.2.3.2 Dragão (impressão 3D)
+   &emsp;  &emsp; &emsp;  &emsp; Foi utilizado o Filamento PLA Transparente de 1.75mm, juntamente com a Impressora 3D Ender-3 Pro - Creality, levando cerca de 56h de impressão, com alguns defeitos pontuais.
+    &emsp;  &emsp; &emsp;  &emsp; Projeto: ThingVerse, thing 1624412 - **https://www.thingiverse.com/thing:1624412**
+
+   ##### 1.2.4  Visualização (aplicativos)
+   &emsp;  &emsp; 1.2.5.1 Visão geral, proposta geral
+   &emsp;  &emsp;&emsp; 1.2.5.2 Aplicativo
+   
+   
+    -------TODO
+            1.2.5.2.1 Apresentar compilado, para baixar, instalar e usar
                    1.2.5.2.1.1 Instruções para instalar
                    1.2.5.2.1.2 Instruções para usar
                1.2.5.2.2 Construção
