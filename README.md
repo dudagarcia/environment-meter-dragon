@@ -21,7 +21,7 @@
   
   ##### 1.2.2 Dispositivo - Dragão Meteorológico
   
-  &emsp; ##### 1.2.2.1 Lista de peças
+  &emsp; 1.2.2.1 Lista de peças
          
   &emsp;  &emsp;  &emsp;Sensor BME280, ESP32, Jumpers.
   
