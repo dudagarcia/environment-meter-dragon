@@ -37,16 +37,23 @@
   <img src = "images/WhatsApp Image 2022-01-07 at 00.06.24.jpeg">
   
    &emsp;  &emsp; 1.2.2.4 Programação do dispositivo
+   
    &emsp;  &emsp;  &emsp; Uso das bibliotecas <Adafruit_NeoPixel.h> para a manipulação dos LEDs e <Adafruit_BME280.h> e <Adafruit_Sensor.h> para a manipulação do BME280.
    
    ##### 1.2.3 Construção física
+   
    &emsp;  &emsp;1.2.3.1 Visão geral
+   
    &emsp; &emsp;  &emsp; 1.2.3.2 Dragão (impressão 3D)
+   
    &emsp;  &emsp; &emsp;  &emsp; Foi utilizado o Filamento PLA Transparente de 1.75mm, juntamente com a Impressora 3D Ender-3 Pro - Creality, levando cerca de 56h de impressão, com alguns defeitos pontuais.
-    &emsp;  &emsp; &emsp;  &emsp; Projeto: ThingVerse, thing 1624412 - **https://www.thingiverse.com/thing:1624412**
+   
+   &emsp;  &emsp; &emsp;  &emsp; Projeto: ThingVerse, thing 1624412 - **https://www.thingiverse.com/thing:1624412**
 
    ##### 1.2.4  Visualização (aplicativos)
+   
    &emsp;  &emsp; 1.2.5.1 Visão geral, proposta geral
+   
    &emsp;  &emsp;&emsp; 1.2.5.2 Aplicativo
    
    
