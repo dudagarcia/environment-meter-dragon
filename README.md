@@ -49,7 +49,7 @@
    
    &emsp;  &emsp; &emsp;  &emsp; A impressão foi realizada pela Impressora 3D Ender-3 Pro - Creality, e foram utilizados em torno de 435 gramas de Filamento PLA Transparente de 1.75mm, levando cerca de 56h de impressão, com alguns defeitos mínimos e pontuais.
    
-   &emsp;  &emsp; &emsp;  &emsp; Referência de projeto: ThingVerse, thing 1624412 - **https://www.thingiverse.com/thing:1624412**
+   &emsp;  &emsp; &emsp;  &emsp; Referência de projeto: ThingVerse, [thing 1624412](https://www.thingiverse.com/thing:1624412).
 
    ##### 1.2.4  Visualização: impressão 3D
    
