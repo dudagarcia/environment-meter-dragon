@@ -31,7 +31,6 @@ int keyIndex = 0;            // your network key Index number (needed only for W
 WiFiClient  client;
 unsigned long myChannelNumber = SECRET_CH_ID;
 const char * myWriteAPIKey = SECRET_WRITE_APIKEY;
-String myStatus = "";
 
 int statusCode = 0;
 int field[8] = {1,2,3,4,5,6,7,8};
@@ -66,9 +65,6 @@ void loop() {
   ThingSpeak.setField(3, altitude);
   ThingSpeak.setField(4, umidade);
 
-  // set the status
-  ThingSpeak.setStatus(myStatus);
-  
   // write to the ThingSpeak channel
   int x = ThingSpeak.writeFields(myChannelNumber, myWriteAPIKey);
   if(x == 200){
